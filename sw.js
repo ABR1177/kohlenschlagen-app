@@ -1,8 +1,8 @@
 const ASSETS_TO_CACHE = [
-    './',
-    './index.html',
-    './app.js',
-    './manifest.json',
+    '',
+    'index.html',
+    'app.js',
+    'manifest.json',
     'https://cdn.tailwindcss.com',
     'https://unpkg.com/lucide@latest',
     'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap',
@@ -44,3 +44,4 @@ self.addEventListener('fetch', (event) => {
         })
     );
 });
+
